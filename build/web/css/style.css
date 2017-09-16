@@ -1,0 +1,89 @@
+h1,p,h2,h3,body{
+		margin: 0px;
+		padding: 0px;
+	}
+		
+	.head{
+		font-family: 'Roboto', sans-serif;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.container{
+		width: 80%;
+		font-family: 'Open Sans', sans-serif;
+		margin: 6vw auto;
+		border: #2d2d2d .3vw solid;
+		overflow: hidden;
+	}
+
+	.left{
+		width: 30%;
+		float: left;
+		display: none;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		text-align: center;
+	}
+
+	.center{
+		margin-bottom: 2vw;
+		float: left;
+		width: 38%;
+		display: none;
+		margin-top: 2vw;
+		text-align: center;
+		border-left: .15vw #2d2d2d solid;
+		border-right: .15vw #2d2d2d solid;
+	}
+
+	.right{
+		margin-bottom: 2vw;
+		margin-top: 2vw;
+		float: left;
+		width: 30%;
+		display: none;
+		text-align: center;
+	}
+
+	.head h1{
+		font-size: 5.5vw;
+		letter-spacing: .2em;
+		font-weight: 300;
+		text-align: center;
+		margin-top: 2vw;
+	}
+
+	h2{
+		font-weight: 200;
+		display: none;
+		margin-bottom: 2vw;
+		font-size: 2.5vw;
+		margin-top: 5vw;
+	}
+
+	h3{
+		font-size: 3.5vw;
+		font-weight: 400;
+		display: none;
+		margin-bottom: 5vw;
+	}
+
+	.progress{
+		width: 80%;
+		height: 1vw;
+		border: .1vw solid #2d2d2d;
+		margin: 4vw auto;
+	}
+
+	.bar{
+		width: 0%;
+		background-color: green;
+		float: left;
+		height: 1vw;
+		transition: width 1.8s cubic-bezier(0.5, -0.5, 0.5, 1.5);
+	}
+
+	.demo{
+		width: 80%;
+	}
